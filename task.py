@@ -16,6 +16,8 @@ class Human():
             self.name=name
 
 
+
+
 adam=Human(name="Mathew",gender="male")
 print("name",adam.name)
 print("gender",adam.gender)
