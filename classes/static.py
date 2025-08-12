@@ -65,19 +65,11 @@ class Human:
         print("curse", self.curse)
         print("---------------------")
 
-    @classmethod
-    def get_general_info(cls):
-        print("species",cls.species)
-        print("species",cls.genus)
-        print("species",cls.count)
-
 adam = Human(name="adam", gender="Male")
 eve = Human(name="eve", gender="Female")
 
-# print("adam species", adam.species)
-# print("eve species", eve.species)
-# print("class property", Human.species)
+print("adam species", adam.species)
+print("eve species", eve.species)
+print("class property", Human.species)
 
-# print("Total humans", Human.count)
-Human.get_general_info()
-
+print("Total humans", Human.count)
