@@ -1,3 +1,9 @@
+"""in polymorphisim,you have to first of all use inheritance in order to use it.Basically what polymorphisim does is just using the same 
+function name but using it differently,if u create like the head of all classes with a function name and then inherit the head class,
+but use a different method,the junior class will be used if u use it at the print part,the head class wont be used"""
+
+
+
 class Shape:
     def __init__(self,name):
         self.name=name
